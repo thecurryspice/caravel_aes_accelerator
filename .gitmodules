@@ -1,0 +1,3 @@
+[submodule "aes"]
+	path = aes
+	url = git@github.com:secworks/aes.git

@@ -1,0 +1,17 @@
+{
+    "DESIGN_NAME": "aes_wb_wrapper",
+    "FP_PDN_MULTILAYER": false,
+    "CLOCK_PORT": "wb_clk_i",
+    "CLOCK_PERIOD": 25,
+    "VERILOG_FILES": [
+        "dir::../../aes/src/rtl/aes.v",
+        "dir::../../aes/src/rtl/aes_core.v",
+        "dir::../../aes/src/rtl/aes_decipher_block.v",
+        "dir::../../aes/src/rtl/aes_encipher_block.v",
+        "dir::../../aes/src/rtl/aes_inv_sbox.v",
+        "dir::../../aes/src/rtl/aes_key_mem.v",
+        "dir::../../aes/src/rtl/aes_sbox.v",
+        "dir::../../verilog/rtl/aes_wb_wrapper.v"
+    ],
+    "FP_CORE_UTIL": 40
+}
